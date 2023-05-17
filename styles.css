@@ -1,0 +1,114 @@
+#title {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 700;
+}
+#description {
+    text-align: center;
+    font-size: 100%;
+    padding-bottom: 20px;
+    line-height: 150%;
+}
+#survey-form {
+    margin-bottom: 0.00001px;
+}
+.survey-form {
+    background-color: #131818;
+    
+}
+a, a:visited, a:hover {
+    color: #B0228C;
+}
+.header {
+    color: #f5f4f4;
+    background-color: #131818;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    min-height: 120px;
+    max-height: 1280px;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    /*overflow: hidden;*/
+    background-color: #162a4d;
+    color: #e0e0e0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 100%;
+}
+.space {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: #162a4d;
+    height: 10px;
+    margin: 0 auto;
+}
+#name, #email, #number {
+    background-color: #E9E9ED;
+}
+.equation {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    max-width: 100%;
+    word-wrap: break-word;
+    margin: 10px auto;
+}
+fieldset {
+    border: none;
+}
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+footer {
+    text-align: center;
+    margin: 0 auto 2px;
+    font-size: 90%;
+}
+label {
+    display: block;
+    margin: 2% 0;
+}
+.input {
+    margin: 1% 0;
+    width: 90%
+}
+#dropdown {
+    background-color: #E9E9ED;
+    margin-bottom: 5px;
+    margin: 0 auto;
+    display: block;
+}
+.inline {
+    display: grid;
+    gap: 2px;
+    align-items: center;
+}
+.option {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+.option input[type="radio"],
+.option input[type="checkbox"] {
+    margin-right: 5px;
+} 
+textarea {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0 0;
+}
+input[type="submit"] {
+    display: block;
+    width: 25%;
+    margin: 3% auto;
+    font-size: 100%;
+    height: 50%;
+}
